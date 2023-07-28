@@ -1,0 +1,32 @@
+change to deleting report from searching for one to find in DB 
+Do away with the reportID DB
+consolodate mentions of prog into one place so more easily changed.
+move the file id and reportid DB to MySQL
+-b and -l in cal-create-tables.pe#
+add catch not avaliable reports add to list
+add catch no avaliable reports runs add to list
+queues and support programs for failed upload reports and downloaded reports
+implement save of above list
+fetch above saved lists on start up
+tidy utility programs
+
+move to using auth_struct and stop using auth_token in main program
+	- done for main program now for rest
+
+done
+----
+tidy up the debugging and move to logger (canceled lack of time)
+add code to catch reports in reportID list but not updateable (too complex)
+add report section (to run every wednesday)
+move publisherid to fetch from DBmysql
+revise get_auth_token
+Add check that each report on the command line exists!
+set up iximport user, upload files
+set up sec files and write utility to write this
+move main finctions out of iterate.py
+add adding create and last update dates to struct and to title
+add update report as appropriate
+move to shelve db totally and remove local_json_dbs.py
+migrate other data steucture to json ab with string keys
+Write SQLlite library and move to (canceled).
+move of all db to SQLlite (canceled)

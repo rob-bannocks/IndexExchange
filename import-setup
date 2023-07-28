@@ -1,0 +1,7 @@
+pip3 install urllib3
+pip3 install gzip
+pip3 install python-dotenv
+pip3 install requests
+pip3 install mysql-connector
+pip3 install mysql-connector-python
+#pip install mysql # need to have mysql in the path
